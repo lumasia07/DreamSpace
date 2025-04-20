@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | DreamSpace Designs</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+        <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Portfolio Hero Section -->
+        <section class="portfolio-hero">
+            <div class="container">
+                <h1 class="reveal-text">Our Portfolio</h1>
+                <p class="reveal-text delay-1">Explore our curated collection of interior design projects that showcase our creativity, craftsmanship, and attention to detail.</p>
+            </div>
+            <div class="hero-pattern"></div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="residential">Residential</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="masonry-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item residential" id="project1">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern living room">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Harmony Heights</h3>
+                                <p class="project-category">Residential</p>
+                                <p class="project-location">New York, NY</p>
+                                <p class="project-description">Contemporary apartment with panoramic city views featuring custom millwork and integrated smart home technology.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-item commercial" id="project2">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern office space">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Nexus Workspace</h3>
+                                <p class="project-category">Commercial</p>
+                                <p class="project-location">San Francisco, CA</p>
+                                <p class="project-description">Innovative workspace design promoting collaboration while maintaining individual focus areas with acoustic solutions.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-item hospitality" id="project3">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Hotel lobby">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Azure Retreat</h3>
+                                <p class="project-category">Hospitality</p>
+                                <p class="project-location">Miami, FL</p>
+                                <p class="project-description">Boutique hotel blending coastal luxury with biophilic design principles for a serene guest experience.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-item commercial" id="project4">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Restaurant interior">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Culinary Canvas</h3>
+                                <p class="project-category">Commercial</p>
+                                <p class="project-location">Chicago, IL</p>
+                                <p class="project-description">Fine dining establishment featuring custom lighting installations and a curated material palette.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-item residential" id="project5">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern kitchen">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Urban Loft</h3>
+                                <p class="project-category">Residential</p>
+                                <p class="project-location">Seattle, WA</p>
+                                <p class="project-description">Industrial-chic loft conversion preserving original architectural elements while introducing modern comforts.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio-item hospitality" id="project6">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <img src="https://images.unsplash.com/photo-1566669437687-7040a6926753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Hotel suite">
+                                <div class="portfolio-overlay">
+                                    <div class="before-after">
+                                        <button class="before-after-btn">View Before & After</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h3>Skyline Suites</h3>
+                                <p class="project-category">Hospitality</p>
+                                <p class="project-location">Los Angeles, CA</p>
+                                <p class="project-description">Luxury hotel suites with panoramic city views and custom-designed furniture pieces.</p>
+                                <a href="#" class="btn btn-text">View Case Study <span class="arrow">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-cta">
+                    <p>Have a project in mind? Let's discuss how we can transform your space.</p>
+                    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Before/After Modal -->
+        <div class="before-after-modal">
+            <div class="modal-content">
+                <button class="close-modal">&times;</button>
+                <div class="comparison-container">
+                    <div class="image-comparison">
+                        <div class="image-before">
+                            <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Before renovation">
+                            <div class="image-label">Before</div>
+                        </div>
+                        <div class="image-after">
+                            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="After renovation">
+                            <div class="image-label">After</div>
+                        </div>
+                        <div class="slider-handle"></div>
+                    </div>
+                    <div class="comparison-info">
+                        <h3>Harmony Heights Transformation</h3>
+                        <p>This complete apartment renovation transformed a dated 1980s space into a modern, light-filled home. Key changes included:</p>
+                        <ul>
+                            <li>Removal of walls to create open-plan living</li>
+                            <li>Custom built-in storage solutions</li>
+                            <li>Engineered hardwood flooring throughout</li>
+                            <li>Smart home technology integration</li>
+                            <li>Custom lighting design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+</body>
+</html>
