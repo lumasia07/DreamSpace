@@ -1,0 +1,126 @@
+/* about.css */
+
+/* Reuse root variables for consistency */
+:root {
+    --color-bg-light: #f9f9f9;
+    --color-bg-dark: #111;
+    --color-text-light: #333;
+    --color-text-dark: #fff;
+    --color-primary: #c0a062;
+    --transition: all 0.3s ease;
+  }
+  
+  /* Reset & Base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    transition: var(--transition);
+  }
+  
+  body.dark-mode {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-dark);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header */
+  .header {
+    padding: 1.5rem 0;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .nav li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .nav li a:hover,
+  .nav li a.active {
+    color: var(--color-primary);
+  }
+  
+  /* Main Content */
+  main.container {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+  }
+  
+  main p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    color: inherit;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #eaeaea;
+    color: #444;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.95rem;
+  }
+  
+  body.dark-mode .footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    main h2 {
+      font-size: 2rem;
+    }
+  
+    main p {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  }
+  
